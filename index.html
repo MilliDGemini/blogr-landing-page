@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize CSS File  -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+  <body>
+    <!-- Start Header Section -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#"><img src="images/logo.svg" alt="logo" /></a>
+        </div>
+        <nav>
+          <img
+            class="toggle-menu active"
+            src="images/icon-hamburger.svg"
+            alt="toggle-img"
+          />
+          <img class="close" src="images/icon-close.svg" alt="close-img" />
+          <div class="menus">
+            <ul class="main-menu">
+              <li id="product" class="dropdown-list">
+                <div class="title">
+                  <span>Product</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
+                    <path
+                      fill="none"
+                      stroke="#FFF"
+                      stroke-width="2"
+                      opacity=".75"
+                      d="M1 1l4 4 4-4"
+                    />
+                  </svg>
+                </div>
+                <ul class="sub-menu">
+                  <li><a href="#">Overview</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Marketplace</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Integrations</a></li>
+                </ul>
+              </li>
+              <li id="company" class="dropdown-list">
+                <div class="title">
+                  <span>Company</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
+                    <path
+                      fill="none"
+                      stroke="#FFF"
+                      stroke-width="2"
+                      opacity=".75"
+                      d="M1 1l4 4 4-4"
+                    />
+                  </svg>
+                </div>
+                <ul class="sub-menu">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </li>
+              <li id="connect" class="dropdown-list">
+                <div class="title">
+                  <span>Connect</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
+                    <path
+                      fill="none"
+                      stroke="#FFF"
+                      stroke-width="2"
+                      opacity=".75"
+                      d="M1 1l4 4 4-4"
+                    />
+                  </svg>
+                </div>
+                <ul class="sub-menu">
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Newsletter</a></li>
+                  <li><a href="#">LinkedIn</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="btns">
+              <li class="login-btn"><a href="#">Login</a></li>
+              <li class="signup-btn">
+                <a class="main-btn" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <script src="js/index.js"></script>
+  </body>
+</html>
